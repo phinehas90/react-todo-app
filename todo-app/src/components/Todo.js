@@ -4,7 +4,6 @@ const Todo = (props) => {
     
     const deleteHandler = () => {
         props.setTodos(props.todos.filter(el => el.id !== props.todo.id))
-        console.log(props.todo)
     }
 
     const completeHandler = () => {
