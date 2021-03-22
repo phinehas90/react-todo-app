@@ -15,7 +15,7 @@ function App() {
         <h1>React Todo</h1>
       </header>
       <Form todos={todos} inputText={inputText} setTodos={setTodos} setInputText={setInputText} />
-      <TodoList todos={todos}/>
+      <TodoList todos={todos} setTodos={setTodos}/>
     </div>
   );
 }
